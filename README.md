@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/b482d1ac-13ae-460c-914b-5cedb1e77b4f
 
 ## References
 
-- Godot Engine: https://github.com/godotengine/godot
+- Basic tutorial: [https://github.com/godotengine/godot](https://www.youtube.com/watch?v=f8arMv_rtUU)
 
 
 
