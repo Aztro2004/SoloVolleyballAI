@@ -10,8 +10,7 @@ A Godot 4 implementation of a solo volleyball robot that learns to keep a ball i
 - **AI controller with observation space**:
   - cube position (x,y,z)
   - ball position (x,y,z)
-  - position of cube relatively to wall
-    
+      
 ## Rewards
 **Positive**
 - Keeping the ball alive
