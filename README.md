@@ -26,3 +26,11 @@ A Godot 4 implementation of a solo volleyball robot that learns to keep a ball i
 ## Action Spaxe
 - Moving in x,z axis
 - Jumping.
+
+## Example of training
+
+
+
+https://github.com/user-attachments/assets/8080cd53-f2ed-4f54-bfdb-d4ba8dc4e415
+
+
