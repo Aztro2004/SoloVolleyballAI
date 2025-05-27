@@ -39,5 +39,15 @@ https://github.com/user-attachments/assets/66caee3f-f050-460b-b78e-0fcdf5f78e9d
 
 https://github.com/user-attachments/assets/b482d1ac-13ae-460c-914b-5cedb1e77b4f
 
+## Dependencies
+
+- Godot: https://github.com/godotengine/godot
+
+- Godot RL: https://github.com/edbeeching/godot_rl_agents_plugin
+
+## References
+
+- Godot Engine: https://github.com/godotengine/godot
+
 
 
