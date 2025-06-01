@@ -18,6 +18,7 @@ A Godot 4 implementation of a solo volleyball robot that learns to keep a ball i
 - Keeping the ball alive
 - Hitting the ball
 - height of the ball.
+- Being near the ball
 
 
 **Negative**
