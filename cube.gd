@@ -6,7 +6,8 @@ class_name SoloVolleyballCharacter
 @export var gravity: float = 9.8
 @export var hit_cooldown: float = 0.5
 
-
+var ball_position_history: Array[Vector3] = []
+const HISTORY_LENGTH := 4
 
 var hit_cooldown_timer: float = 0.0
 
@@ -38,7 +39,9 @@ func _physics_process(delta):
 		hit_ball()
 		hit_cooldown_timer = hit_cooldown
 
-
+	ball_position_history.append(ball.global_position)
+	if ball_position_history.size() > HISTORY_LENGTH:
+		ball_position_history.pop_front()
 	# Gravity
 	if not is_on_floor():
 		velocity.y -= gravity * delta
@@ -52,3 +55,8 @@ func _physics_process(delta):
 	velocity.z = ai_controller.move.y * move_speed
 	
 	move_and_slide()
+	
+	var collision = get_last_slide_collision()
+	if collision:
+		if collision.get_collider().name in ["Walls", "Walls2", "Walls3", "Walls4"]:
+			ai_controller.touched_wall = true
