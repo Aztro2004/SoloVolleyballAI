@@ -32,9 +32,14 @@ A Godot 4 implementation of a solo volleyball robot that learns to keep a ball i
 ## Example of training
 
 
-## Bonus Clip of when the AI got the ball stuck in the air for infinite points
+## Bonus Clips
+
+### When the AI got the ball stuck in the air for infinite points
 
 https://github.com/user-attachments/assets/db58b04b-2d00-432c-86b0-e2d73e20f238
+
+### Boring solution the AI came up with before fine-tuning it
+
 
 ## Dependencies
 
