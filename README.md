@@ -24,7 +24,7 @@ A Godot 4 implementation of a solo volleyball robot that learns to keep a ball i
 **Negative**
 - Letting the ball die.
 - Not doing anything.
-- gluing itself to walls.
+- Hitting walls.
 
 ## Action Spaxe
 - Moving in x,z axis
